@@ -19,8 +19,6 @@ contacts = data[(data.day == day) & (data.month == month)]
 for i, value in contacts.iterrows():
     name = value[0]
     email = value[1]
-    month = value[3]
-    day = value[4]
     letter = choice(letters)
     with open(letter, "r") as file_open:
         replaced_letter = file_open.read().replace(item_to_replace, name)
