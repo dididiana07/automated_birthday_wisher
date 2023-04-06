@@ -8,7 +8,7 @@ password = ""
 
 item_to_replace = "[NAME]"
 data = pd.read_csv("birthdays.csv")
-letters = ["letter_templates/letter_1.txt", "letter_templates/letter_2.txt", "letter_templates/letter_3.txt"]
+letters = ["letter_1.txt", "letter_2.txt", "letter_3.txt"]
 
 date = dt.datetime.now()
 month = date.month
